@@ -52,7 +52,7 @@ searchBtn.addEventListener("click", ()=>{
 })
 searchBox.addEventListener("keydown", (event) => {
     if (event.keyCode === 13) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
 
         checkWeather(searchBox.value);
     }
